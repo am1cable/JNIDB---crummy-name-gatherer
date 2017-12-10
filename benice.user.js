@@ -90,7 +90,7 @@ function updateList() {
     return compiledList;
 }
 
-function combineLists(oldList, newList, currentRarity) {
+function combineLists(oldList, newList) {
     var combined = oldList;
     for (var i = 0; i < newList.length; i++) {
         if (!oldList.includes(newList[i])) {
